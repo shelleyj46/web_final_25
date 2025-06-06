@@ -1,5 +1,5 @@
 # web_final_25
-This is a repo for all my WEB projects.
+This is a repo for all my WEB projects!
 
 <h1>My WEB Projects:</h1>
 <ul>
