@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelley | CSS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #purple-text {
+            color:#d9afef;
+            font-style: italic;
+            font-size:large;
+        }
+        #multi-text {
+            color:rgb(126, 201, 189);
+            font-size: 20px;
+            text-align:center;
+        }
+        body {
+            background-color: rgb(244, 236, 223);
+        }
+        h2 {
+            text-align: center;
+        }
+        h1 {
+            text-align: left;
+        }
+        .overflow {
+            background-color: rgb(217, 227, 242);
+            width: 500px;
+            height: 100px;
+            border: 1px solid rgb(255, 255, 255);
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+   </div>
+
+    <h1>A Midsummer Night's Dream</h1>
+    <h2>The ballet version.</h2>
+    <p style="color:rgb(97, 146, 115);">It's based on a play by Shakespeare,</p>
+    <p style="color:rgb(128, 153, 174);">And choerographed by George Balanchine.</p>
+    <p style="font-size: 30px;">I love the creativity!</p>
+    <p style="text-align:center;">The plot is cool with appearances of fairies and other fantasy elements.</p>
+    <p style="color:rgb(221, 157, 166);font-size:25px;text-align:right;">The costumes and color palette are also pretty.</p>
+
+    <h2>Other details</h2>
+    <div class="overflow">
+    <p id="purple-text">It's set in Athens</p>
+    <p id="multi-text">There are 4 important main characters</p>
+    <p>Many elements are based off of mythology.</p>
+    </div>
+    
+    <h2>I really want to watch it in person one day</h2>
+
+    <div class="image-caption">
+       <img src="images/midsummernightsdreamgreen.webp" width="500px">
+       <p> Here's a picture!</p>
+    </div>
+    <div class="image-caption">
+        <img src="images/midsummernightsdreamdance.jpg" width="600px">
+        <p>This is another cool
+        <br><span id="dance">dance</span>
+        <br>scene!</p>
+    </div>
+</body>
+</html>

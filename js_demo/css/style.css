@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(233, 227, 239);
+}
+h2,h1 {
+    border: dotted rgb(179, 145, 200) 2px;
+    padding: 10px;
+    margin-right: 600px;
+    border-radius: 10px;
+    background-color: rgb(234, 224, 238);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(155, 127, 158);
+}
+h1 {
+    font-size: 25px;
+}
+h2 {
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
+    color: rgb(138, 118, 141);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

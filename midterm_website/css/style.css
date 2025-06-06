@@ -1,0 +1,58 @@
+body, head {
+    background-color: rgb(255, 250, 238);
+    letter-spacing: 0.3px;
+}
+h1 {
+    color:rgb(202, 214, 226);
+    text-shadow: 2px 2px 4px rgb(62, 84, 104);
+}
+.nav {
+    list-style: none;
+    text-align: center;
+}
+.nav li {
+    display: inline;
+    margin-right: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgb(230, 238, 245);
+}
+a:link {
+    color: rgb(150, 172, 192);
+}
+a:visited {
+    color: rgb(133, 159, 182);
+}
+
+.image_border_left {
+    text-align: center;
+    border: 2px dotted rgb(224, 237, 249);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgba(189, 219, 241, 0.283);
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.image_border_right {
+    text-align: center;
+    border: 2px dotted rgb(224, 237, 249);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgba(189, 219, 241, 0.283);
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+.main_text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(185, 198, 210);
+}

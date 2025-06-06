@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        #math {
+            font-size: 14px;
+            color:rgb(89, 110, 91);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="pets.html">Pets</a></li>
+        </ul>
+    </div> 
+    <h1>Who Am I?</h1>
+    <h2>Basic Information:</h2>
+    <ul class="basic">
+        <li>Name: Unknown</li>
+        <li>Friends: Yes</li>
+        <li>Address: Just kidding**</li>
+        <li>School: <a href="https://www.eastsideprep.org/" target="_blank">Eastside Prep</a></li>
+    </ul>
+    <div class="add_ons">
+        <p>*<span style="font-style: italic;">Never</span> put your name on the internet.</p>
+        <p>**Why would I tell strangers my address?</p>
+    </div>
+    <p class="other_text">Here's a representation of me!</p>
+    <img src="images/shellE.png" alt="A shell with the letter E on it." width="300px">
+    <h2>Hobbies:</h2>
+        <ol class="other_text">
+            <li>sleep</li>
+            <li>reading</li>
+            <li>staring at the wall, lost in my own thoughts</li>
+            <li>doing nothing</li>
+            <li>doomscrolling</li>
+        </ol>
+    <h2>School:</h2>
+    <p class="other_text">Obviously, I go to Eastside Prep. It teaches grades 5-12, I joined in 5th grade. I made this website for a school project(more on that later). My school is quite fun, but I wish we had a bigger campus. The spaces we do have are very nice though.<br> I kinda of wish I were back in 5th grade right now, we didn't have finals back then (or much homework).</p>
+    <h2>Future Planning:</h2>
+    <p class="other_text">Have you ever thought of what you want to be when you grow up? I certainly have. Maybe I'll be a scientist, or an astronaut, or a musician. Or, maybe I'll be a jam jar manufacturer, that sounds fun. Or, maybe I'll be just another CS major, that's fine too. Anyways, see why I like staring at the wall now? I honestly feel bad for my friends, they have to listen to me talk about these tangents. But then again, they do this too.</p>
+    <h2 style="font-size: 35px; color: rgb(122, 216, 75); text-shadow: 2px 2px 4px rgb(156, 227, 120);">Fun Stuff!</h2>
+    <p class="other_text"> Anyways, let's change the topic. Hearing all about me must be pretty boring. What is 243*(25-7)?</p>
+    <button onclick="document.getElementById('math').innerHTML = 243*(25-7)">Answer!</button>
+    <p id="math"></p>
+    <p class="other_text"> Okay, you probably don't like math. Math can be kind of fun sometimes, but I don't like multiplying by large numbers either. It's quite easy to make mistakes. That's why I use a calculator! (This is where other websites would advertise their calculators, but I won't.)</p>
+    <script>
+        alert('Hi! Welcome to my website!')
+    </script>
+</body>
+</html>

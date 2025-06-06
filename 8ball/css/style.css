@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: rgb(210, 233, 213);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#answer_button {
+    background-color: rgb(237, 218, 215);
+    border: solid white 1px;
+    border-radius: 4px;
+    padding:5px;
+    font-size: 12px;
+}
+#question {
+    border: solid rgb(183, 216, 189) 1px;
+    border-radius: 4px;
+    padding:5px;
+    font-size: 11px;
+}
+h1 {
+    text-align: center;
+    color: rgb(96, 139, 109);
+}
+h2 {
+    font-size: 15px;
+    color: rgb(54, 104, 73);
+}

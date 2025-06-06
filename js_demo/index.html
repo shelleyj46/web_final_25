@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelley| JS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <h1>Really Random Project</h1>
+    <h2>Hi, I'm a really random project. I can do basic functions.</h2>
+    <p>If you don't find answers here, click here to search on <a href="http://www.google.com" target="_blank" onclick="alert('just so you know, you are leaving this website')">Google</a> instead.</p>
+    <h2>Doing math:</h2>
+    <p>What's 2+2?</p>
+    <button onclick="document.getElementById('add').innerHTML = 2+2">click for answer</button>
+    <p id="add"></p>
+    <h2>Changing text:</h2>
+    <button onclick="document.getElementById('change-text').innerHTML='told you'">click to change text below</button>
+    <p id="change-text">This text will change.</p>
+    <h2>Displaying time:</h2>
+    <button onclick="document.getElementById('date').innerHTML=Date()">click for date and time</button>
+    <p id="date"></p>
+
+    <h2>Making a function:</h2>
+    <p>Now, let's start.</p>
+    <button onclick="pFun()">click to run a function</button>
+    <p id="p-fun"></p>
+
+    <h2>I even know all your personal information...hahaha</h2>
+    <button onclick="askName()">click to give me your name</button>
+    <p id="ask-name"></p>
+
+    <h2>Asking questions:</h2>
+    <button onclick="askQuestion()">click for a question</button>
+    <p id="question"></p>
+
+    <h2>I can also surprise you:</h2>
+    <button onclick="showImg()">click for a surprise</button>
+    <img id="surprise" src="" width="300px">
+
+    <script>
+        alert("hi.\nwhy are you here?");
+        alert("welcome I guess...");
+
+        function pFun() {
+            var p=document.getElementById('p-fun');
+            p.innerHTML='Boo! Did I scare you?';
+            p.style.fontSize='30px'
+            p.style.color='red';
+        }
+        function showImg() {
+            var image=document.getElementById('surprise');
+            image.src='images/surprise_gif.gif';
+        }
+    </script>
+</body>
+</html>

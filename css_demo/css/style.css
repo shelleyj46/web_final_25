@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(218, 216, 214);
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+}
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(211, 234, 255);
+}
+.image-caption {
+    text-align: center;
+    border: 2px dotted white;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 15px;
+}
+#dance {
+    font-size: 30px;
+    color:rgb(129, 178, 224);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    
+}
